@@ -8,7 +8,7 @@ El proyecto surge para intentar solventar esta distancia entre ciudadanía y adm
 
 El **Asistente virtual para el acceso a información económica municipal**  está estructurada de forma modular con los siguientes módulos:
 
-![Diagrama módulos](./Imagenes/Diagrama-modulos.png)
+![Diagrama módulos](./Imagenes/Diagrama-modulos2.png)
 
 - [Módulo 1: Extracción y Almacenamiento.](https://github.com/areahackerscivics/Chatbot_M1_Extraccion_y_Almacenamiento) Conjunto de scripts y procesos ETL (Extracción, transformación y carga) para recolectar la información de los distintos formatos que ofrece el ayuntamiento y estructurarlos en un base de datos MongoDB.
 - [Módulo 2: WebHook (Servicio Web).](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb)
