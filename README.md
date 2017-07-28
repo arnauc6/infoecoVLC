@@ -42,6 +42,6 @@ Al tratarse de un proyecto modular puedes adoptar toda la estructura, algunos m�
 
   ## Términos de uso
 
-  El contenido de este repositorio está sujeto a la licencia [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
+El contenido de este repositorio está sujeto a la licencia [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-  [![Licencia de Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+![](https://www.gnu.org/graphics/gplv3-127x51.png)
