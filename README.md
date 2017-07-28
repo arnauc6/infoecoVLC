@@ -6,14 +6,16 @@
 
 El proyecto surge para intentar solventar esta distancia entre ciudadanía y administración, acercando la información disponible en los portales de los ayuntamientos al bolsillo de la ciudadanía.
 
-El **Asistente virtual para el acceso a información económica municipal**  está estructurada de forma modular con los siguientes módulos:
+El **Asistente virtual para el acceso a información económica municipal**  es capaz de ofrecer la información a la ciudadanía mediante lenguaje común. De esta forma, el usuario o usuaria contactará con el asistente virtual y realizará preguntas como: ¿cuánto dinero se invierte en mi barrio? o ¿cuál es la deuda del ayuntamiento?; a partir de ahí, el asistente responderá con la información que obtiene de las páginas Web y portales de datos abiertos del ayuntamiento (Previamente guardados en una Base de Datos). Permitiendo, de esta manera, que los usuarios y usuarias adquieran información pública de forma fácil, rápida y confiable.
+
+El desarrollo del asistente virtual es  modular y de código abierto para facilitar que sea fácilmente ampliable o exportable a cualquier ayuntamiento. Además, se está desarrollando utilizando el diseño centrado en la ciudadanía con el objetivo de que se adapte a sus necesidades reales. La estructura de módulos y relaciones es la siguiente:
 
 ![Diagrama módulos](./Imagenes/Diagrama-modulos3.png)
 
 - [Módulo 1: Extracción y Almacenamiento.](https://github.com/areahackerscivics/Chatbot_M1_Extraccion_y_Almacenamiento) Conjunto de scripts y procesos ETL (Extracción, transformación y carga) para recolectar la información de los distintos formatos que ofrece el ayuntamiento y estructurarlos en un base de datos MongoDB.
-- [Módulo 2: WebHook (Servicio Web).](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb)
-- [Módulo 3: Agente Inteligente (api.ai).](https://github.com/areahackerscivics/Chatbot_M3_Agente_Inteligente)
-- [Módulo 4: Integración Telegram.](https://github.com/areahackerscivics/Chatbot_M4.A_Integracion_Telegram)
+- [Módulo 2: WebHook (Servicio Web).](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb) Servicio web que se encarga de obtener el texto y valor de la respuesta una vez identificada de que pregunta se trata.
+- [Módulo 3: Agente Inteligente (api.ai).](https://github.com/areahackerscivics/Chatbot_M3_Agente_Inteligente) Copia del agente inteligente creado en [api.ai](https://api.ai/) para que pueda ser replicado.
+- [Módulo 4: Integración Telegram.](https://github.com/areahackerscivics/Chatbot_M4.A_Integracion_Telegram) Se encarga de gestionar todos los mensajes que se reciben de Telegram. Se comunica con el módulo 3 y el módulo 2 para obtener la respuesta para el usuario.
 
 
 ## Guía de uso
@@ -22,7 +24,7 @@ El **Asistente virtual para el acceso a información económica municipal**  est
 
 - Autor principal:
   - Arnau Campos Albuixech
-  - Valeria Alexandra Haro Valle
+  - Valeria Alexandra Haro Valle | @ValeriaHaro
 - Director del proyecto:
   - [Diego Álvarez](https://about.me/diegoalsan) | @diegoalsan
 
