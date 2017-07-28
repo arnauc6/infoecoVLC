@@ -20,11 +20,13 @@ El desarrollo del asistente virtual es  modular y de código abierto para facili
 
 ## Guía de uso
 
+Al tratarse de un proyecto modular puedes adoptar toda la estructura, algunos módulos sueltos, crear nuevos módulos o modificar los módulos existentes. Cada módulo contendrá la información de cómo ponerlo en funcionamiento y las entradas y salidas esperadas.
+
 ## Equipo
 
-- Autor principal:
-  - Arnau Campos Albuixech
-  - Valeria Alexandra Haro Valle | @ValeriaHaro
+- Autores:
+  - [Arnau Campos Albuixech](https://www.linkedin.com/in/arnau-campos-albuixech-759b23138)
+  - [Valeria Alexandra Haro Valle](https://about.me/valexharo) | @ValeriaHaro
 - Director del proyecto:
   - [Diego Álvarez](https://about.me/diegoalsan) | @diegoalsan
 
