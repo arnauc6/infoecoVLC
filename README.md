@@ -10,6 +10,7 @@ El **Asistente virtual para el acceso a información económica municipal**  est
 
 - [Módulo 1: Extracción y Almacenamiento.](https://github.com/areahackerscivics/Chatbot_M1_Extraccion_y_Almacenamiento) Conjunto de scripts y procesos ETL (Extracción, transformación y carga) para recolectar la información de los distintos formatos que ofrece el ayuntamiento y estructurarlos en un base de datos MongoDB.
 
+![Diagrama módulos](./Imágenes/Diagrama módulos.png)
 
 ## Guía de uso
 
