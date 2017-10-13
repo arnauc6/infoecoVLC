@@ -1,5 +1,6 @@
-# Asistente virtual para información económica municipal
-
+# **infoecoVLC**
+## **Asistente virtual para información económica municipal**
+![Diagrama módulos](./Imagenes/infoecoVLC_ logo.jpg)
 
 ## Descripción
 
