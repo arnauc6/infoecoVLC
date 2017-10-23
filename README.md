@@ -1,5 +1,6 @@
 # **infoecoVLC**
 ## **Asistente virtual para información económica municipal**
+![Logo chatbot Telegram](https://raw.githubusercontent.com/areahackerscivics/infoecoVLC/master/Imagenes/infoecoVLC_%20logo.jpg)
 
 ## Descripción
 
@@ -10,7 +11,8 @@ El **Asistente virtual para el acceso a información económica municipal**  es 
 
 El desarrollo del asistente virtual es  modular y de código abierto para facilitar que sea fácilmente ampliable o exportable a cualquier ayuntamiento. Además, se está desarrollando utilizando el diseño centrado en la ciudadanía con el objetivo de que se adapte a sus necesidades reales. La estructura de módulos y relaciones es la siguiente:
 
-![Diagrama módulos](./Imagenes/Diagrama-modulos3.png)
+![Diagrama módulos](https://raw.githubusercontent.com/areahackerscivics/infoecoVLC/master/Imagenes/Diagrama-modulos.png
+)
 
 - [Módulo 1: Extracción y Almacenamiento.](https://github.com/areahackerscivics/Chatbot_M1_Extraccion_y_Almacenamiento) Conjunto de scripts y procesos ETL (Extracción, transformación y carga) para recolectar la información de los distintos formatos que ofrece el ayuntamiento y estructurarlos en un base de datos MongoDB.
 - [Módulo 2: WebHook (Servicio Web).](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb) Servicio web que se encarga de obtener el texto y valor de la respuesta una vez identificada de que pregunta se trata.
