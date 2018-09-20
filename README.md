@@ -14,10 +14,12 @@ El desarrollo del asistente virtual es  modular y de código abierto para facili
 ![Diagrama módulos](https://github.com/arnauc6/infoecoVLC/blob/master/Imagenes/Diagrama-modulos-V2.png
 )
 
-- [Módulo 1: Integración con Telegram.](https://github.com/areahackerscivics/Chatbot_M4.A_Integracion_Telegram) Se encarga de gestionar todos los mensajes que se reciben de Telegram. Se comunica con el módulo 3 y el módulo 2 para obtener la respuesta para el usuario.
-- [Módulo 2: Procesamiento del lenguaje natural.](https://github.com/areahackerscivics/Chatbot_M3_Agente_Inteligente) Copia del agente inteligente creado en [api.ai](https://api.ai/) para que pueda ser replicado.
-- [Módulo 3: Gestor de diálogo.](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb) Servicio web que se encarga de obtener el texto y valor de la respuesta una vez identificada de que pregunta se trata.
+- [Módulo 1: Integración con Telegram.](https://github.com/areahackerscivics/Chatbot_M4.A_Integracion_Telegram) El presente módulo se encarga de realizar toda la gestión interna de los mensajes recibidos. Cuenta con un mecanismo que se encarga de filtrar los mensajes, dejando pasar sólo aquellos que vienen en formato texto. Además, se encarga de gestionar las respuestas a los usuarios, realizando el direccionamiento de los mensajes con los módulos de procesamiento del lenguaje natural y el gestor de diálogo, hasta que se envía la respuesta al usuario.
+- [Módulo 2: Procesamiento del lenguaje natural.](https://github.com/areahackerscivics/Chatbot_M3_Agente_Inteligente) Copia del agente inteligente creado en [Dialogflow](https://dialogflow.com/) para que pueda ser replicado.
+- [Módulo 3: Gestor de diálogo.](https://github.com/areahackerscivics/Chatbot_M2_WebHook_ServicioWeb) Servicio web que se encarga de recibir las preguntas ya clasificadas en *Intents* y, las *Entities* ya estructuradas y ordenadas. A partir de esta información realiza una consulta a la base de datos y construye la respuesta tal como la verá el usuario. Esta respuesta es mandada al gestor de Telegram para que a su vez se lo envíe al usuario correspondiente.
+
 - [Módulo 4: Extracción, Transformación y Carga.](https://github.com/areahackerscivics/Chatbot_M1_Extraccion_y_Almacenamiento) Conjunto de scripts y procesos ETL (Extracción, transformación y carga) para recolectar la información de los distintos formatos que ofrece el ayuntamiento y estructurarlos en un base de datos MongoDB.
+Este módulo está compuesto por ETL (Extracción, Transformación y Carga) que se encarga de recolectar la información y almacenarla en la base de datos que alimenta el gestor de respuestas.
 
 
 
